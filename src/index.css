@@ -1,4 +1,51 @@
-/* :root {
+:root {
+    --main-bg-color: #ffffff;
+    --side-bg-color: #ED0E29;
+    --side-bg2-color: #b9061a;
+    --main-tx-color: #0b0b0b;
+    --side-tx-color: #556070;
+  }
   
-} */
-
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    font-weight: bold;
+    color: #dbdbdb;
+  }
+  dl ol ul {
+    margin-top: 0;
+  
+  }
+  ol ul {
+   padding-left: 2rem;
+  }
+  span {
+    color: #ff001e;
+   }
+  
+  
+  /* Responsividade Exessão */
+  
+  @media screen and (max-width: 350px) {}
+  
+  /* Responsividade Tablet  */
+  
+  @media screen and (min-width: 600px) {}
+  
+  /* Responsividade Notebook  */
+  
+  @media screen and (min-width: 1200px) {}
+  
+   /* Responsividade Desktop  */
+  
+  @media screen and (min-width: 2000px) {} 

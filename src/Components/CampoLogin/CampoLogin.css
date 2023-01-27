@@ -1,0 +1,16 @@
+.card-content-area input {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+.card-content label {
+    color: #ffffff;
+    font-size: 1.5rem;
+    opacity: 0.8;
+
+}

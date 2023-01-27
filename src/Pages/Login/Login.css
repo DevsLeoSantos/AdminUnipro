@@ -1,0 +1,82 @@
+body {
+    background-color: #27262C;
+    background-image: url(/imagens/Ellipse.svg);
+    background-repeat: no-repeat;
+    background-size: 13rem;
+    background-position: center left;
+
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/imagens/Subtract.svg);
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: top right;
+    
+}
+
+.dados {
+    background-color: #27262C;
+    width: 15rem;
+}
+
+.dados1 {
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.dados1::after {
+    width: 70px;
+    height: 1px;
+    background-color: #ffffff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login button {
+    width: 100%;
+    height: 40px;
+    background-color: #ED0E29;
+    border: none;
+    color: #ffffff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.login a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:780px) {
+    body {
+        background-image: none;
+    }
+    #login {
+        background-image: none;
+    }
+}
