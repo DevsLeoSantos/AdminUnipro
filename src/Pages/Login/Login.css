@@ -1,12 +1,3 @@
-body {
-    background-color: #27262C;
-    background-image: url(/imagens/Ellipse.svg);
-    background-repeat: no-repeat;
-    background-size: 13rem;
-    background-position: center left;
-
-}
-
 #login {
     display: flex;
     align-items: center;

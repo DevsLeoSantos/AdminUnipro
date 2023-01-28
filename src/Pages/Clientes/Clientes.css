@@ -1,0 +1,40 @@
+.react-tabs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-left: 128px;
+    padding-right: 186px;
+}
+
+
+.react-tabs__tab-list {
+    display: flex;
+    width: 276px;
+    height: 804px;
+    background: #ED0E29;
+    border-radius: 36px 36px 32px 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.react-tabs__tab-list li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.react-tabs__tab-panel {
+    padding-left: 48px;
+    flex: 1;
+
+}
+
+
+.ag-theme-alpine{
+    width: 100%;
+    height: 500px;
+}
